@@ -16,7 +16,7 @@ function App() {
           alt="Profile"
           className="profile-photo"
         />
-        <h1>Welcome to My Personal Website</h1>
+        <h1>Welcome to Eve's Personal Website!👩🏻‍💻</h1>
         <p>
           Hi, I'm Eve! I'm a software engineer with a passion for creating
           impactful applications and solving challenging problems.
