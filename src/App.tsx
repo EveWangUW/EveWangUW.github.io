@@ -3,10 +3,13 @@ import './App.css';
 
 function App() {
   const projects = [
-    { name: 'Project 1', link: 'https://example.com/project1' },
-    { name: 'Project 2', link: 'https://example.com/project2' },
+    { name: 'GitHub User Analysis', link: 'https://github.com/EveWangUW/IMT542-GitHubUserAnalysis-FinalProject' },
+    { name: 'Cybersecurity Lab', link: 'https://github.com/EveWangUW/IMT555-Cybersecurity-Lab' },
     { name: 'Project 3', link: 'https://example.com/project3' },
-  ];
+    { name: 'GitHub User Analysis', link: 'https://github.com/EveWangUW/IMT542-GitHubUserAnalysis-FinalProject' },
+    { name: 'Cybersecurity Lab', link: 'https://github.com/EveWangUW/IMT555-Cybersecurity-Lab' },
+    { name: 'Project 3', link: 'https://example.com/project3' },
+    ];
 
   return (
     <div className="App">
@@ -17,10 +20,8 @@ function App() {
           className="profile-photo"
         />
         <h1>Welcome to Eve's Personal Website!👩🏻‍💻</h1>
-        <p>
-          Hi, I'm Eve! I'm a software engineer with a passion for creating
-          impactful applications and solving challenging problems.
-        </p>
+        <p> 👋 Hi, I'm Eve! </p>
+        <p> I'm a software engineer with a passion for creating impactful applications and solving challenging problems.</p>
       </header>
       <main className="project-section">
         <h2>My Projects</h2>
@@ -37,14 +38,14 @@ function App() {
       </main>
       <footer className="App-footer">
         <a
-          href="https://linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/eve-wang-uw/"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/your-github"
+          href="https://github.com/EveWangUW"
           target="_blank"
           rel="noopener noreferrer"
         >
